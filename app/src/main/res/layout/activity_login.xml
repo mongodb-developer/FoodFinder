@@ -23,7 +23,7 @@
             android:layout_marginTop="10dp"
             android:fontFamily="cursive"
             android:gravity="center_horizontal"
-            android:text="Enter Authentication Details"
+            android:text="@string/header_label"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintEnd_toEndOf="@id/authLayout"
             app:layout_constraintStart_toStartOf="@id/authLayout"
@@ -45,7 +45,7 @@
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter your email"
+                android:hint="@string/hint_email"
                 android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,7 +65,7 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter your password"
+                android:hint="@string/hint_password"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,7 +74,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:text="Login"
+            android:text="@string/label_login"
             app:layout_constraintEnd_toStartOf="@id/button_create"
             app:layout_constraintStart_toStartOf="@id/authLayout"
             app:layout_constraintTop_toBottomOf="@id/password_layout" />
@@ -84,7 +84,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="25dp"
-            android:text="Create Account"
+            android:text="@string/label_account"
             app:layout_constraintEnd_toEndOf="@id/authLayout"
             app:layout_constraintStart_toEndOf="@id/button_login"
             app:layout_constraintTop_toBottomOf="@id/password_layout" />

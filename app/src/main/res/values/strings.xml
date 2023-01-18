@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FoodFinder</string>
+    <string name="header_label">Enter Authentication Details</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="label_login">Login</string>
+    <string name="label_account">Create Account</string>
+    <string name="hint_cuisine">Enter a Cuisine</string>
+    <string name="hint_location">Enter a location</string>
+    <string name="search">Search</string>
+    <string name="desc_image">Image of Honey</string>
+    <string name="welcome_label">Food Finder for New York</string>
+    <string name="label_locOrfood">Enter location or cuisine</string>
 </resources>
